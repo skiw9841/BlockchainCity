@@ -1,3 +1,1 @@
-# evoting-android
-# BlockchainCity
 # BlockchainCity
