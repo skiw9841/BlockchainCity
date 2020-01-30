@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#31b8bc</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="transparent_88">#88000000</color>
+    <color name="progressbar_bg_color">#8c000000</color>
+
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="colorGreen">#00FF00</color>
+    <color name="colorBlue">#0377ff</color>
+    <color name="colorGray1">#202020</color>
+    <color name="colorGray2">#404040</color>
+    <color name="colorGray3">#636363</color>
+    <color name="colorGray4">#808080</color>
+    <color name="colorGray5">#979797</color>
+    <color name="colorGray6">#bdbdbd</color>
+    <color name="colorGray7">#f8f8f8</color>
+
+    <color name="colorGrayBg">#e8e8e8</color>
+
+</resources>

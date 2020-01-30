@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">블록체인시티</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cancel">취소</string>
+    <string name="no">아니요</string>
+    <string name="yes">예</string>
+    <string name="confirm">확인</string>
+    <string name="close">닫기</string>
+    <string name="setting">설정</string>
+    <string name="str_done">완료</string>
+    <string name="edit">수정</string>
+
+
+    <string name="alert_permission_camera">해당 앱을 사용하기 위해서는 권한을 허용해 주셔야 합니다. 앱 설정화면으로 이동합니다.</string>
+
+    <string name="nav_citizen">내 시민증</string>
+    <string name="nav_vote">투표하기</string>
+    <string name="nav_pay">결제하기</string>
+    <string name="citizen_issue">블록체인 시민증 발급받기</string>
+    <string name="citizen_save">발급받은 블록체인 시민증 저장하기</string>
+
+
+    <string name="vote_description_1">일회용컵 사용,\n어떻게 줄일 수 있을까?</string>
+    <string name="vote_description_2">현지인이 추천하는\n명동 나들이!</string>
+    <string name="vote_description_3">앞으로 주목해야 할\nK-POP 장르는?</string>
+
+    <string name="AUTH_LOG_1">아이콘리퍼블릭</string>
+    <string name="AUTH_LOG_2">아이콘 트래블</string>
+    <string name="AUTH_LOG_3">슈퍼스타 아이콘</string>
+    <string name="fail_msg_cannot_init">데이터를 초기화하지 못하였습니다</string>
+    <string name="fail_msg_cannot_get">데이터를 가져오지 못하였습니다</string>
+    <string name="msg_delete">데이터를 삭제하시겠습니까?</string>
+</resources>

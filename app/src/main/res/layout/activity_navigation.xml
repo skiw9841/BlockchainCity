@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    tools:context=".ui.navigation.NavigationActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:background="@color/colorWhite"
+    android:gravity="center">
+    <ImageView
+        android:id="@+id/logo_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:src="@drawable/ic_logo_seoul_01"/>
+</LinearLayout>
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:elevation="0dp">
+
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/Base.Widget.Design.TabLayout"
+            app:tabTextAppearance="@style/MyCustomTabLayout"
+            app:tabIndicatorHeight="2dp"
+            app:tabMode="fixed"
+            app:tabTextColor="@color/colorGray5"
+            app:tabSelectedTextColor="@color/colorBlack">
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/tabItem1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="내 시민증" />
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/tabItem2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="투표하기"/>
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/tabItem3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="결제하기"/>
+        </android.support.design.widget.TabLayout>
+    </android.support.design.widget.AppBarLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/colorGray5"/>
+<!--    <android.support.v4.view.ViewPager -->
+    <com.ad4th.seoulandroid.ui.navigation.NoSwipeViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</LinearLayout>
